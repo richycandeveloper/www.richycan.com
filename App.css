@@ -1,0 +1,123 @@
+/* General Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* Home Section */
+  .home {
+    padding: 20px;
+  }
+
+  .home-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+    margin: 15px 0;
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* About Section */
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .skills-list {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Projects Section */
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    margin-bottom: 20px;
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 20px;
+  }
+
+  .contact-form {
+    gap: 10px;
+  }
+
+  .contact-form input, 
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+
+  .btn-submit {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  /* Social Media Section */
+  .social-icons {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .social-icons a {
+    font-size: 1.2rem;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+/* Styles for Small Mobile Devices */
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn-primary {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  /* Navbar */
+  .navbar .menu-toggle {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    font-size: 0.9rem;
+  }
+
+  /* Contact Section */
+  .contact-form input, 
+  .contact-form textarea {
+    padding: 8px;
+  }
+
+  .btn-submit {
+    padding: 6px 10px;
+  }
+}

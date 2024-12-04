@@ -1,0 +1,88 @@
+/* About Section Styles */
+.about {
+    padding: 60px 20px;
+    background-color: #1c1e2e; /* Deep background color */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold for headings */
+    text-transform: uppercase;
+  }
+  
+  .about h2 span {
+    color: #f44336; /* Accent color */
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #d3d3d3;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .skills {
+    margin-top: 40px;
+    background: #292a40; /* Darker background for skills section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .skills h3 {
+    font-size: 1.8rem;
+    color: #ffd700; /* Gold */
+    margin-bottom: 15px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    background: linear-gradient(to right, #ffd700, #f44336); /* Gradient for skill items */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 2rem;
+    }
+  
+    .about-text {
+      font-size: 1rem;
+    }
+  
+    .skills-list li {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  

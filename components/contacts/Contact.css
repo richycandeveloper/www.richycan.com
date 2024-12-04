@@ -1,0 +1,99 @@
+/* Contact Section Styles */
+.contact {
+    padding: 60px 20px;
+    background-color: #1f1c2c; /* Deep purple background */
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold heading */
+    text-transform: uppercase;
+  }
+  
+  .contact h2 span {
+    color: #f44336; /* Red accent */
+  }
+  
+  .contact p {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: #d3d3d3; /* Light grey text */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact-form input {
+    background: #292a40; /* Darker background for inputs */
+    color: #fff;
+  }
+  
+  .contact-form textarea {
+    background: #292a40; /* Matches input */
+    color: #fff;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #a1a1a1; /* Placeholder color */
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: 2px solid #ffd700; /* Gold focus border */
+  }
+  
+  .btn-submit {
+    background: linear-gradient(to right, #ffd700, #f44336); /* Gradient button */
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #f44336, #ffd700); /* Reverse gradient */
+  }
+  
+  .btn-submit:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .contact h2 {
+      font-size: 2rem;
+    }
+  
+    .contact p {
+      font-size: 0.9rem;
+    }
+  }
+  

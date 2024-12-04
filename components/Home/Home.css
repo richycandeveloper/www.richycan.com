@@ -1,0 +1,112 @@
+/* Add a deep professional background */
+.home {
+  background-color: #1a1a2e; /* Deep navy blue background */
+  color: #ffffff; /* White text for contrast */
+  padding: 50px 20px;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+/* Container styling */
+.home-container {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for small screens */
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* Add spacing between content and image */
+}
+
+/* Styling for the text content */
+.home-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ffd700; /* Gold for emphasis */
+}
+
+.home-content .typewriter {
+  color: #00d4ff; /* Vibrant light blue for the typing effect */
+}
+
+.home-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d3d3d3; /* Light grey for text */
+  margin-bottom: 20px;
+}
+
+.home-content .btn-primary {
+  display: inline-block;
+  background-color: #00d4ff; /* Light blue button */
+  color: #1a1a2e; /* Match background color for harmony */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.home-content .btn-primary:hover {
+  background-color: #009dbf; /* Slightly darker blue on hover */
+}
+
+/* Styling for the image container */
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for emphasis */
+  transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+.home-image img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text and image */
+  }
+
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 0.95rem;
+  }
+
+  .home-image img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px; /* Add spacing between text and image */
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-content p {
+    font-size: 0.9rem;
+  }
+
+  .home-image img {
+    width: 150px;
+    height: 150px;
+  }
+}
